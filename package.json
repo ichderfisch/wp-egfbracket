@@ -1,0 +1,23 @@
+{
+  "name": "EGF Bracket",
+  "version": "0.0.1",
+  "description": "Plugin that adds a shortcode to display tournament brackets by the European Go Federation visible",
+  "main": "wp-egfbracket.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "european go federation",
+    "go",
+    "weiqi",
+    "baduk"
+  ],
+  "author": "Dennis Fischer",
+  "license": "",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.4.0"
+  }
+}

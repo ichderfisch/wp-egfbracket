@@ -1,0 +1,130 @@
+.tour-draw {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    width: 115px;
+    height: 24px;
+}
+
+.tour-draw .node-name {
+    position: absolute;
+    top: -9px;
+}
+
+.tour-draw .node-desc {
+    position: absolute;
+    top: 7px;
+}
+
+.tour-draw .node-roundTitles {
+    position: absolute;
+    top: -37px;
+    left: 0;
+    width: 1100px;
+}
+
+.tour-draw .node-roundTitles .roundTitles {
+    float: left;
+    width: 116px;
+    margin-right: 6px;
+    padding-left: 4px;
+    color: #333;
+    background-color: #e7cc3d;
+}
+
+.tour-draw.winner {
+    height: 41px;
+}
+
+.tour-draw.winner {
+    background-image: url('http://www.eurogofed.org/newick/pics/trophy.svg');
+    background-position: right 0;
+    background-repeat: no-repeat;
+}
+
+.tour-draw.winner .node-name {
+    position: absolute;
+    top: 0;
+}
+
+.tour-draw.winner .node-desc {
+    position: absolute;
+    top: 16px;
+}
+
+.tour-draw .node-name {
+    padding: 2px;
+    white-space: pre;
+    color: #333;
+}
+
+.tour-draw .node-desc:link {
+    color: #B33333;
+}
+
+.tour-draw .node-desc a,
+.tour-draw .node-desc a:visited {
+    color: #B33333;
+}
+
+.tour-draw .node-desc {
+    padding: 2px;
+    color: #999;
+    display: block;
+    white-space: pre;
+}
+
+.tour-draw .node-title {
+    padding: 2px;
+    white-space: pre;
+    color: #333;
+    position: absolute;
+    top: 0;
+    left: -27px;
+}
+
+.tour-draw.open-draw {
+    height: 60px;
+}
+
+.tour-draw.open-draw .node-name {
+    position: absolute;
+    top: 9px;
+}
+
+.tour-draw.open-draw .node-desc {
+    position: absolute;
+    top: 26px;
+}
+
+.tour-draw.separate-draw {
+    position: absolute;
+    border: 1px solid DarkTurquoise;
+    box-sizing: border-box;
+}
+
+.tour-draw.open-draw .node-name {
+    position: absolute;
+    top: 9px;
+}
+
+.tour-draw.open-draw .node-desc {
+    position: absolute;
+    top: 26px;
+}
+
+.tour-draw.firstnode-draw {
+    position: absolute;
+    border: 1px solid DarkBlue;
+    box-sizing: border-box;
+}
+
+.tour-draw.open-draw .firstnode-name {
+    position: absolute;
+    top: 9px;
+}
+
+.tour-draw.open-draw .firstnode-desc {
+    position: absolute;
+    top: 26px;
+}
