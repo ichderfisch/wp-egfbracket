@@ -32,25 +32,50 @@
     background-color: #e7cc3d;
 }
 
-.tour-draw.winner {
+.tour-draw.winner,
+.tour-draw.medal-2nd-place,
+.tour-draw.medal-3rd-place,
+.tour-draw.medal-4th-place,
+.tour-draw.medal-5th-place,
+.tour-draw.medal-6th-place,
+.tour-draw.medal-7th-place,
+.tour-draw.medal-8th-place {
     height: 41px;
-}
-
-.tour-draw.winner {
-    background-image: url('http://www.eurogofed.org/newick/pics/trophy.svg');
     background-position: right 0;
     background-repeat: no-repeat;
 }
 
-.tour-draw.winner .node-name {
-    position: absolute;
-    top: 0;
+.tour-draw.winner .node-name,
+.tour-draw.medal-2th-place .node-name,
+.tour-draw.medal-3th-place .node-name,
+.tour-draw.medal-4th-place .node-name,
+.tour-draw.medal-5th-place .node-name,
+.tour-draw.medal-6th-place .node-name,
+.tour-draw.medal-7th-place .node-name,
+.tour-draw.medal-8th-place .node-name { 
+    position: absolute; top: 0px; 
 }
 
-.tour-draw.winner .node-desc {
-    position: absolute;
-    top: 16px;
-}
+.tour-draw.winner .node-desc,
+.tour-draw.medal-2th-place .node-desc,
+.tour-draw.medal-3th-place .node-desc,
+.tour-draw.medal-4th-place .node-desc,
+.tour-draw.medal-5th-place .node-desc,
+.tour-draw.medal-6th-place .node-desc,
+.tour-draw.medal-7th-place .node-desc,
+.tour-draw.medal-8th-place .node-desc { 
+    position: absolute; top: 17px; 
+} 
+
+.tour-draw.winner { background-image: url('http://www.eurogofed.org/newick/pics/trophy.svg') }
+.tour-draw.medal-8th-place { background-image: url('http://www.eurogofed.org/newick/pics/medal-8th-place.svg') }
+.tour-draw.medal-7th-place { background-image: url('http://www.eurogofed.org/newick/pics/medal-7th-place.svg') }
+.tour-draw.medal-6th-place { background-image: url('http://www.eurogofed.org/newick/pics/medal-6th-place.svg') }
+.tour-draw.medal-5th-place { background-image: url('http://www.eurogofed.org/newick/pics/medal-5th-place.svg') }
+.tour-draw.medal-4th-place { background-image: url('http://www.eurogofed.org/newick/pics/medal-4th-place.svg') }
+.tour-draw.medal-3rd-place { background-image: url('http://www.eurogofed.org/newick/pics/medal-3rd-place.svg') }
+.tour-draw.medal-2nd-place { background-image: url('http://www.eurogofed.org/newick/pics/medal-2nd-place.svg') }
+
 
 .tour-draw .node-name {
     padding: 2px;
